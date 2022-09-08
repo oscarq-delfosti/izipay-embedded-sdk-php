@@ -101,6 +101,7 @@ $valor = pago($URL_BASE,$body,$headers);
                 document.getElementById("valdas").style.display = "none";
             }
         });
+        
         KR.onSubmit( function(event) {
             console.log(event.hashAlgorithm.toString());
             console.log(event.rawClientAnswer);

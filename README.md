@@ -16,7 +16,7 @@ git clone https://github.com/izipay-pe/Embedded-PaymentFormD1-PHP.git
 ## 2.- Obtener las credenciales
 Ingresar al back office vendedor para poder obtener las crecenciales. Ingresar a CONFIGURACIÓN< TIENDA < CLAVES DE API REST [aquí](https://secure.micuentaweb.pe/vads-merchant/loginAction.do).  
 
-![Credenciales](/images/Screenshot2.png)
+![Credenciales](bo.png)
 
 ## 3.- Configurar las credenciales:
 Obtener las credenciales de su Back Office Vendedor y copiarlas en las variales correspondientes en el archivo: `keys.php` 
@@ -66,7 +66,7 @@ Guarde los cambios.
 g)Active la regla haciendo clic derecho en URL de notificación de cancelación y seleccionando Activar la regla .
 
 
-![URL de notificacion](/images/Screenshot-3.png)
+![URL de notificacion](bo2.png)
 
 ## 5.- Ejecutar el proyecto
 Abrir la aplicación instalada de Xampp y ejecutar el botón **Start** del modulo de **Apache**

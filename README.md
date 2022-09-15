@@ -14,7 +14,7 @@ Descargar el proyecto .zip ingresado [aquí](https://github.com/izipay-pe/Embedd
 git clone https://github.com/izipay-pe/Embedded-PaymentFormD1-PHP.git
 ``` 
 ## 2.- Obtener las credenciales
-Ingresar al back office vendedor para poder obtener las crecenciales. Ingresar a CONFIGURACIÓN< TIENDA < CLAVES DE API REST [aquí](https://secure.micuentaweb.pe/vads-merchant/loginAction.do).  
+Ingresar al back office vendedor para poder obtener las crecenciales. Ingresar a CONFIGURACIÓN< TIENDA < CLAVES DE API REST [aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/get_my_keys.html).  
 
 ![Credenciales](bo.png)
 

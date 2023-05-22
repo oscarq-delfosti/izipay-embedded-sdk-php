@@ -16,12 +16,13 @@ git clone https://github.com/izipay-pe/Embedded-PaymentFormD1-PHP.git
 * Ingresar al [Back Office Vendedor](https://secure.micuentaweb.pe/vads-merchant/loginAction.init.a ) 
 para poder obtener las crecenciales. 
 * Ingresar a CONFIGURACIÓN > TIENDAS > TIENDA
-
 ![Tiendas](store.png)
 
-Para obtener mas información de este paso consulte en el siguiente [enlace](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/get_my_keys.html).
-
+* Al seleccionar una tienda la aparecerá el siguiente apartado en el sistema.
 ![Credenciales](bo.png)
+
+Para obtener mas información sobre este paso consulte en el siguiente [enlace](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/get_my_keys.html).
+
 
 ## 3.- Configurar las credenciales:
 Obtener las credenciales de su Back Office Vendedor y copiarlas en las variales correspondientes en el archivo: `keys.php` 

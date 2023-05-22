@@ -1,20 +1,25 @@
-﻿# Embedded-Form-Izipay in PHP
+# Embedded-Form-Izipay in PHP
 
-Este es un ejemplo practico con la pasarela de pago de Izipay utilizando el formulario de pago incrustado.  
-Visite la documentación para más información aquí: [Documentación Izipay](https://secure.micuentaweb.pe/doc/es-PE/form-payment/standard-payment/sitemap.html)
+Este es un ejemplo de trabajo de la pasarela de pago  Izipay con un formulario de pago integrado. 
+Para obtener más información, consulte la documentación aquí [Documentación Izipay](https://secure.micuentaweb.pe/doc/es-PE/form-payment/standard-payment/sitemap.html).
 
-## Requisitos Previos
-Tener Php versión 7 en adelanta
+## Requisitos previos
+* PHP ^7.0
 
-
-## 1.- Descargar el archivo 
-Descargar el proyecto .zip ingresado [aquí](https://github.com/izipay-pe/Embedded-PaymentFormD1-PHP/archive/refs/heads/main.zip) ó clonarlo con git.
+## 1.- Descargar el proyecto 
+Descargar el proyecto en formato .zip ingresando [aquí](https://github.com/izipay-pe/Embedded-PaymentFormD1-PHP/archive/refs/heads/main.zip) o clonarlo con el siguiente comando:
 
 ```sh
 git clone https://github.com/izipay-pe/Embedded-PaymentFormD1-PHP.git
 ``` 
 ## 2.- Obtener las credenciales
-Ingresar al back office vendedor para poder obtener las crecenciales. Ingresar a CONFIGURACIÓN< TIENDA < CLAVES DE API REST [aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/get_my_keys.html).  
+* Ingresar al [Back Office Vendedor](https://secure.micuentaweb.pe/vads-merchant/loginAction.init.a ) 
+para poder obtener las crecenciales. 
+* Ingresar a CONFIGURACIÓN > TIENDAS > TIENDA
+
+![Tiendas](store.png)
+
+Para obtener mas información de este paso consulte en el siguiente [enlace](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/get_my_keys.html).
 
 ![Credenciales](bo.png)
 

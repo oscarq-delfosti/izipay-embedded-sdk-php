@@ -62,19 +62,23 @@ en el [Back Office Vendedor](https://secure.micuentaweb.pe/vads-merchant/loginAc
 1. Ir al menú: CONFIGURACIÓN > REGLAS DE NOTIFICACIONES > [SU TIENDA], .
 ![Opciones de configuración](store_config_notification.png)
 
-2. Hacer clic derecho en el item `URL de notificación al abandonar (comprador)` y seleccionar la opción `Gestionar la regla`.
+2. Hacer clic derecho en el item `URL de notificación al abandonar (comprador)` 
+y seleccionar la opción `Gestionar la regla`.
 ![Lista de configuraciones](store_config_list.png)
 
-3. En la sección `Configuración general`, modificar el campo `Dirección (s) de e-mail para advertir en caso de fallo` y marcar la casilla `Reejecutar automáticamente en caso de fallo` si desea autorizar a la plataforma a reenviar automáticamente la notificación hasta 4 veces en caso de fallo.
+3. En la sección `Configuración general`, modificar el campo `Dirección (s) de 
+e-mail para advertir en caso de fallo` y marcar la casilla `Reejecutar 
+automáticamente en caso de fallo` si desea autorizar a la plataforma a reenviar 
+automáticamente la notificación hasta 4 veces en caso de fallo.
 
-
-f)En la sección URL de notificación de la API REST , indique la URL de su página en los campos URL de destino de la IPN a la que se llamará en modo TEST y URL de destino de la IPN a la que se llamará en modo PRODUCTION .
-Guarde los cambios.
-
-g)Active la regla haciendo clic derecho en URL de notificación de cancelación y seleccionando Activar la regla .
-
-
+4. En la sección `URL de notificación de la API REST` , indicar la dirección de su página 
+en los campos `URL de destino de la IPN` tanto en modo `TEST` como `PRODUCCIÓN` y guarde 
+los cambios.
 ![URL de notificacion](bo2.png)
+
+5. Regresar al listado de configuraciones y hacer clic derecho nuevamente en el item 
+`URL de notificación al abandonar (comprador)`, finalmente seleccionar la opción 
+`Activar la regla`.
 
 ## 5.- Ejecutar el proyecto
 Abrir la aplicación instalada de Xampp y ejecutar el botón **Start** del modulo de **Apache**
